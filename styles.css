@@ -280,3 +280,57 @@ body {
 }
 
 /* Experience and additional info styles end */
+
+/* Dark mode styles start here */
+
+.resume.dark-mode {
+    background-color: #222;
+    color: #fff;
+  
+  .resume h1,
+  .resume h2,
+  .resume h3,
+  .resume h4,
+  .resume h5,
+  .resume h6 {
+    color: #fff;
+  }
+  
+  .resume p {
+    color: #ccc;
+  }
+  
+  .resume a {
+    color: #fff;
+  }
+  
+  .resume a:hover {
+    color: #aaa;
+  }
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #333;
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+.dark-mode-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Dark mode styles end here */
