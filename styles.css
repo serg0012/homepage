@@ -136,6 +136,10 @@ body {
   border-color: var(--text-decoration-color);
 }
 
+.hover-link:hover {
+  color: #f00;
+}
+
 /* Contact info styles end */
 
 /* Intro and skills styles start */
